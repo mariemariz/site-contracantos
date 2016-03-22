@@ -737,6 +737,10 @@ div.toggle-container .block p{
 	float: left;
 }
 
+.front-left-col.gallery-col{
+	width: 100%;
+}
+
 .front-right-col{
 	width: 620px;
 	margin: 0px 0px 0px 10px;
@@ -793,6 +797,10 @@ div.toggle-container .block p{
 	display: block;
 }
 
+.gallery-col .blocks-holder{
+	width: 100%;
+}
+
 .blocks-holder li{
 	display: block;
 	float: left;
@@ -800,6 +808,10 @@ div.toggle-container .block p{
 	position: relative;
 	margin-bottom: 10px;
 	margin-right: 10px;
+}
+
+.gallery-col .blocks-holder li{
+	width: 230px;
 }
 
 .blocks-holder li img{

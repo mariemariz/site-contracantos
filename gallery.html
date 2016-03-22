@@ -3,10 +3,13 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
-		<title>SIMPLE</title>
+		<title>Contracantos</title>
+			
 			
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
 		<!--[if IE 6]>
 			<link rel="stylesheet" type="text/css" media="screen" href="css/ie-hacks.css" />
 			<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
@@ -26,7 +29,7 @@
 		<!-- prettyPhoto -->
 		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" />
 		<!-- ENDS prettyPhoto -->
-		
+	
 		<!-- JS -->
 		<script type="text/javascript" src="js/jquery_1.4.2.js"></script>
 		<script type="text/javascript" src="js/jqueryui.js"></script>
@@ -38,13 +41,15 @@
 		<script type="text/javascript" src="js/chirp.js"></script>
 		<script type="text/javascript" src="js/jquery.tabs/jquery.tabs.pack.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
-		<!-- ENDS JS -->
+		
 
+		<!-- ENDS JS -->
+		
 		<!-- Cufon -->
 		<script src="js/cufon-yui.js" type="text/javascript"></script>
 		<script src="js/fonts/bebas-neue_400.font.js" type="text/javascript"></script>
         <!-- /Cufon -->
-	
+		
 		<!-- superfish -->
 		<link rel="stylesheet" type="text/css" media="screen" href="css/superfish-custom.css" /> 
 		<script type="text/javascript" src="js/superfish-1.4.8/js/hoverIntent.js"></script> 
@@ -59,25 +64,32 @@
         <![endif]-->
   		<!-- ENDS tabs -->
 		
-	</head>
-	
+	</head>	
 	
 	<body>
 
 		<!-- HEADER -->
 		<div id="header">
 		<div class="degree">
+			<!-- wrapper -->
 			<div class="wrapper">
-				<a href="index.html"><img src="img/logo.png" alt="Logo" id="logo" /></a>
+				<a href="index.html"><img src="img/logobranca.png" alt="Logo" id="logo" /></a>
 		
 				<!-- search -->
 				<div class="top-search">
-					<form  method="get" id="searchform" action="">
+				<br>
+				<a href="https://www.facebook.com/Contracantos-272699886224067/?fref=ts" target="_blank" title="Facebook"><i style="color:white" class="fa fa-facebook-square fa-2x"></i></a>  
+				<a href="https://www.youtube.com/channel/UCH-Zl_1jcgUHEvh-dSJxBGA" target="_blank" title="Youtube"><i  style="color:white"class="fa fa-youtube-play fa-2x"></i></a>
+					
+				
+				
+					<!-- <form  method="get" id="searchform" action=""> -->
 						<div>
-							<input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" />
-							<input type="submit" id="searchsubmit" value=" " />
+							
+							<!-- <input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this)" onblur="clearInput(this)" /> -->
+							<!-- <input type="submit" id="searchsubmit" value=" " /> -->
 						</div>
-					</form>
+					<!-- </form> -->
 				</div>
 				<!-- ENDS search -->
 				
@@ -85,13 +97,11 @@
 				<div id="nav-holder">
 					<ul id="nav" class="sf-menu">
 						<li><a href="index.html">HOME</a>
-							<ul>
-								<li><a href="index-3d.html">3D SLIDESHOW</a></li>
-							</ul>
+							
 						</li>
-						<li><a href="about.html">FEATURES</a>
+						<li><a href="about.html">BIO</a>
 							<ul>
-								<li><a href="about.html">LAYOUT</a></li>
+								<li><a href="about.html">O Contracantos</a></li>
 								<li><a href="about-styled.html">STYLED</a></li>
 								<li><a href="about-more.html">MORE</a></li>
 								<li><a href="about-toggle.html">TOGGLE BOX</a></li>
@@ -100,18 +110,17 @@
 							</ul>
 						</li>
 						<li><a href="portfolio.html">PORTFOLIO</a></li>
-						<li class="current_page_item"><a href="gallery.html">GALLERY</a>
+						<li class="current_page_item" ><a href="gallery.html">GALERIA</a>
 							<ul>
 								<li><a href="gallery.html">FOUR COLS</a></li>
 								<li><a href="gallery-3.html">THREE COLS</a></li>
 								<li><a href="gallery-2.html">TWO COLS</a></li>
 							</ul>
 						</li>
-						<li ><a href="blog.html">BLOG</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
-						<li><a href="staff.html">STAFF</a></li>
+						<li ><a href="blog.html">AGENDA</a></li>
+						<li><a href="contact.html">CONTATO</a></li>
+						<li><a href="staff.html">INTEGRANTES</a></li>
 						<li><a href="http://luiszuno.com/blog/downloads/simple-template ">DOWNLOAD</a></li>
-						
 					</ul>
 				</div>
 				<!-- ENDS navigation -->
@@ -130,8 +139,8 @@
 				<div class="content">
 					<!-- title -->
 					<div class="title-holder">
-						<span class="title">GALLERY</span>
-						<span class="subtitle">Pellentesque habitant morbi tristique senectus et netus et malesuada fames .</span>
+						<span class="title">GALERIA</span>
+						<!-- <span class="subtitle">Pellentesque habitant morbi tristique senectus et netus et malesuada fames .</span> -->
 					</div>
 					<!-- ENDS title -->
 					
@@ -141,11 +150,12 @@
 
 						<!-- filter -->
 						<ul id="portfolio-filter">
-				    		<li>FILTER </li>
-				    		<li><a href="#all" class="link-button"><span>ALL</span></a></li>
-				    		<li><a href="#filter-autumn" class="link-button"><span>AUTUMN</span></a></li>
-				    		<li><a href="#filter-winter" class="link-button"><span>WINTER</span></a></li>
-				    		<li><a href="#filter-city" class="link-button"><span>CITY</span></a></li>
+				    		<li>FILTRAR </li>
+				    		<li><a href="#all" class="link-button"><span>Todas</span></a></li>
+				    		<!-- <li><a href="#filter-apresentacoes" class="link-button"><span>Apresentações</span></a></li> -->
+							<!-- <li><a href="#filter-historia" class="link-button"><span>História</span></a></li> -->
+				    		<!-- <li><a href="#filter-winter" class="link-button"><span>WINTER</span></a></li> -->
+				    		<!-- <li><a href="#filter-city" class="link-button"><span>CITY</span></a></li> -->
 				    	</ul>
 						<!-- filter -->
 				
@@ -153,77 +163,11 @@
 						
 						<!-- Thumbnails -->
 						<ul id="portfolio-list" class="gallery" >
-							<li class="filter-autumn">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
+							<li class="filter-historia">
+								<a href="img/gallery/história/foto1.png" title="The road" rel="prettyPhoto[gallery]">
 								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-autumn">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-winter">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-winter">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-winter">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-winter">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-city">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-city">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-city">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-city">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-city">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
-							</li>
-							<li class="filter-city">
-								<a href="img/dummies/dummy-tool-t.jpg" title="The road" rel="prettyPhoto[gallery]">
-								<span></span>
-								<img src="img/dummies/portfolio-thumb.gif" alt="The Road" title="The Road"/></a>
-								<em>The Road</em>
+								<img src="img/gallery/história/small/foto1.png" alt="The Road" title="The Road"/></a>
+								<!-- <em>The Road</em> -->
 							</li>
 					 	</ul>
 						<!-- ENDS Thumbnails -->
@@ -246,18 +190,14 @@
 				</div>
 				<!-- ENDS content -->
 				
-				<!-- twitter -->
-				<div class="twitter-reader">
-					<script>Chirp({user:"ansimuz",max:1})</script></div>
-				</div>
-				<!-- ENDS twitter -->
-				
 			</div>
 			<!-- ENDS main-wrapper -->
 			
 		
 		</div>		
 		<!-- ENDS MAIN -->	
+		
+		<script type="text/javascript" src="js/gallery.js"></script>
 		
 		<!-- FOOTER -->
 		<div id="footer">
@@ -266,38 +206,37 @@
 			<div class="wrapper">
 				<!-- social bar -->
 				<div id="social-bar">
-					
 					<ul class="follow-us">
-						<li><span>FOLLOW US</span></li>
-						<li ><a href="#" class="icon-32 twitter-32 social-tooltip" title="Follow our tweets">link</a></li>
-						<li ><a href="#" class="icon-32 vimeo-32 social-tooltip" title="Lorem ipsum dolor">link</a></li>
-						<li ><a href="#" class="icon-32 dribbble-32 social-tooltip" title="Lorem ipsum dolor">link</a></li>
-						<li ><a href="#" class="icon-32 flickr-32 social-tooltip" title="Lorem ipsum dolor">link</a></li>
-						<li ><a href="#" class="icon-32 facebook-32 social-tooltip" title="Lorem ipsum dolor">link</a></li>
-
+						<li><span>SIGA-NOS</span></li>
+						<!-- <li ><a href="#" class="icon-32 twitter-32 social-tooltip" title="Follow our tweets">link</a></li> -->
+						<!-- <li ><a href="#" class="icon-32 vimeo-32 social-tooltip" title="Lorem ipsum dolor">link</a></li> -->
+						<!-- <li ><a href="#" class="icon-32 dribbble-32 social-tooltip" title="Lorem ipsum dolor">link</a></li> -->
+						<!-- <li ><a href="#" class="icon-32 flickr-32 social-tooltip" title="Lorem ipsum dolor">link</a></li> -->
+						<li ><a href="https://www.facebook.com/Contracantos-272699886224067/?fref=ts" target="_blank" title="Facebook"><i style="color:#3B5998" class="fa fa-facebook-square fa-lg"></i></a></li>
+						<li ><a href="https://www.youtube.com/channel/UCH-Zl_1jcgUHEvh-dSJxBGA" target="_blank" title="Youtube"><i  style="color:#E52D27"class="fa fa-youtube-play fa-lg"></i></a></li>
 					</ul>
 				</div>
 				<!-- ENDS social bar -->
 				<!-- footer-cols -->
 				<ul class="footer-cols">
 					<li class="col">
-						<h6>CATEGORIES</h6>
+						<!-- <h6>CATEGORIES</h6>
 						<ul>
 							<li><a href="#">WEBDESIGN</a></li>
 							<li><a href="#/">WORDPRESS</a></li>
 							<li><a href="#">PHOTO</a></li>
 							<li><a href="#">CODING</a></li>
-						</ul>
+						</ul> -->
 					</li>
 					<li class="col">
-						<h6>PAGES</h6>
+						<!-- <h6>PAGES</h6>
 						<ul>
 							<li><a href="#">HOW TO CUSTOMIZE THIS TEMPLATE</a></li>
 							<li><a href="#">5 ESSENTIALS RULES</a></li>
 							<li><a href="#">LOREM IPSUM DOLOR</a></li>
-						</ul>
+						</ul> -->
 					</li>
-					<li class="col">
+					<!-- <li class="col">
 						<h6>FREE TEMPLATES &amp; THEMES</h6>
 						<p>Get tons of free high quality templates at <a href="http://templatecreme.com">Template Creme</a>.</p>
 					</li>	
@@ -308,7 +247,7 @@
 							<li><a href="#">5 ESSENTIALS RULES</a></li>
 							<li><a href="#">LOREM IPSUM DOLOR</a></li>
 						</ul>
-					</li>		
+					</li>		 -->
 				</ul>
 				<!-- ENDS footer-cols -->
 			</div>
@@ -319,17 +258,17 @@
 
 
 		<!-- BOTTOM -->
-		<div id="bottom">
+		<!-- <div id="bottom"> -->
 			<!-- wrapper -->
-			<div class="wrapper">
-				SIMPLE THEME by <a href="http://www.luiszuno.com" >luiszuno.com</a>
-			</div>
+			<!-- <div class="wrapper"> -->
+				<!-- SIMPLE THEME by <a href="http://www.luiszuno.com" >luiszuno.com</a> -->
+			<!-- </div> -->
 			<!-- ENDS bottom-wrapper -->
-		</div>
+		<!-- </div> -->
 		<!-- ENDS BOTTOM -->
 
 		<!-- start cufon -->
-		<script type="text/javascript"> Cufon.now(); </script>
+		<!-- <script type="text/javascript"> Cufon.now(); </script> -->
 		<!-- ENDS start cufon -->
 	
 	</body>
