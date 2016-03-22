@@ -64,13 +64,13 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .desc-curta{
-	
+
 	margin: 20px 0px;
 	font-size: 16px;
 	text-align: justify;
-	
-	
-	
+
+
+
 }
 
 #header
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6{
 	border-bottom: 1px solid #fff;
 	background-size: 100%;
     background-position: 0% 400px;
-	
+
 }
 
 #home-header .degree,
@@ -157,11 +157,15 @@ h1, h2, h3, h4, h5, h6{
 	overflow: hidden;
 }
 
+.holder.pagination{
+	height: 100px;
+}
+
 
 img.shadow-img{
 	border: 1px solid #fff;
-	-webkit-box-shadow: 0 0 3px #000;     
-	-moz-box-shadow: 0 0 3px #000;  
+	-webkit-box-shadow: 0 0 3px #000;
+	-moz-box-shadow: 0 0 3px #000;
 	box-shadow: 0 0 3px #000;
 }
 
@@ -245,9 +249,9 @@ img.shadow-img{
 	line-height: 1em;
 	color: #515153;
 	background: url(../img/sprites.png) 0px -205px  no-repeat;
-	
+
 }
-	
+
 .link-button span{
 	display: block;
 	height: 31px;
@@ -416,7 +420,7 @@ h5.toggle-trigger a {
 }
 
 h5.accordion-trigger a:hover,
-h5.toggle-trigger a:hover { 
+h5.toggle-trigger a:hover {
 	color: #cccccc;
 }
 
@@ -431,7 +435,7 @@ div.toggle-container {
 
 div.accordion-container .block,
 div.toggle-container .block {
-	padding: 10px; 
+	padding: 10px;
 }
 
 div.accordion-container .block ,
@@ -495,7 +499,7 @@ div.toggle-container .block p{
 }
 
 #searchform #searchsubmit{
-	position: absolute; 
+	position: absolute;
 	top: 0px;
 	right: 0px;
 	width: 25px;
@@ -573,7 +577,7 @@ div.toggle-container .block p{
 	color: #939392;
 }
 
-#nav li ul li:hover{ 
+#nav li ul li:hover{
 	background: #4e4e50;
 	background-position-x: -9000px;
 }
@@ -585,7 +589,7 @@ div.toggle-container .block p{
 .title-holder{
 	display: block;
 	overflow: hidden;
-	position: relative; 
+	position: relative;
 	width: 1000px;
 	height: 82px;
 	background: url(../img/title-bg.png) no-repeat ;
@@ -690,7 +694,7 @@ div.toggle-container .block p{
 	background: #575758;
 }
 
-#slideshow-nav a.activeSlide { 
+#slideshow-nav a.activeSlide {
 	background: #fff;
 }
 
@@ -776,7 +780,7 @@ div.toggle-container .block p{
 	line-height: 1.5em;
 }
 
-.news-title a{ 
+.news-title a{
 	color: #666666;
 	font-size: 14px;
 	font-weight: bold;
@@ -879,7 +883,7 @@ div.toggle-container .block p{
 	margin-left: 20px;
 	width: 940px;
 	min-height: 80px;
-	text-align: center; 
+	text-align: center;
 }
 
 #twitter-holder .twitter-entry,
@@ -962,8 +966,8 @@ div.toggle-container .block p{
 	float: left;
 	width: 220px;
 	margin: 0px 10px 20px 6px;
-	
-	
+
+
 }
 
 .portfolio-thumbs li a{
@@ -982,8 +986,8 @@ div.toggle-container .block p{
 
 .portfolio-thumbs li img{
 	border: 1px solid #fff;
-	-webkit-box-shadow: 0 0 3px #000;     
-	-moz-box-shadow: 0 0 3px #000;  
+	-webkit-box-shadow: 0 0 3px #000;
+	-moz-box-shadow: 0 0 3px #000;
 	box-shadow: 0 0 3px #000;
 }
 
@@ -1010,8 +1014,8 @@ div.toggle-container .block p{
 
 .mini-gallery li img{
 	border: 1px solid #fff;
-	-webkit-box-shadow: 0 0 3px #000;     
-	-moz-box-shadow: 0 0 3px #000;  
+	-webkit-box-shadow: 0 0 3px #000;
+	-moz-box-shadow: 0 0 3px #000;
 	box-shadow: 0 0 3px #000;
 }
 
@@ -1045,8 +1049,8 @@ div.toggle-container .block p{
 
 .related-projects-list li img{
 	border: 1px solid #fff;
-	-webkit-box-shadow: 0 0 3px #000;     
-	-moz-box-shadow: 0 0 3px #000;  
+	-webkit-box-shadow: 0 0 3px #000;
+	-moz-box-shadow: 0 0 3px #000;
 	box-shadow: 0 0 3px #000;
 }
 
@@ -1113,9 +1117,12 @@ div.toggle-container .block p{
 
 .gallery li img{
 	border: 1px solid #fff;
-	-webkit-box-shadow: 0 0px 3px #000;     
-	-moz-box-shadow: 0 0px 3px #000;  
+	-webkit-box-shadow: 0 0px 3px #000;
+	-moz-box-shadow: 0 0px 3px #000;
 	box-shadow: 0 0px 3px #000;
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .gallery.two-cols li{
@@ -1232,7 +1239,7 @@ div.toggle-container .block p{
 	width: 640px;
 	float: left;
 	margin-bottom: 20px;
-	
+
 }
 
 .post{
@@ -1289,8 +1296,8 @@ div.toggle-container .block p{
 #posts .post-img img{
 	border: 1px solid #fff;
 	/* shadows*/
-	-webkit-box-shadow: 0px 0px 3px #000;     
-	-moz-box-shadow: 0px 0px 3px #000;  
+	-webkit-box-shadow: 0px 0px 3px #000;
+	-moz-box-shadow: 0px 0px 3px #000;
 	box-shadow: 0px 0px 3px #000;
 }
 
@@ -1649,11 +1656,11 @@ ul#sidebar li.recent-posts div.recent-excerpt a{
 	padding-top: 20px;
 }
 
-#footer ul.footer-cols{ 
+#footer ul.footer-cols{
 	color: #f0efeb;
 }
 
-#footer ul.footer-cols a{ 
+#footer ul.footer-cols a{
 	color: #f0efeb;
 }
 
@@ -1718,20 +1725,3 @@ ul#sidebar li.recent-posts div.recent-excerpt a{
 }
 
 #bottom a{ color: #fff; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
