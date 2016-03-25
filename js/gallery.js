@@ -7,16 +7,16 @@
 	//Adicionar objetos nessa lista com o nome (name), nome da pasta (tag) e a quantidade de fotos que vai varrer
 	var tags = [
 	{
+		name: 'Paço do Frevo',
+		tag: 'paco-frevo',
+		ext: '.jpg',
+		size: 59
+	},
+	{
 		name: 'História',
 		tag: 'historia',
 		ext: '.png',
 		size: 58
-	},
-	{
-		name: 'Sessão de fotos',
-		tag: 'sessao',
-		ext: '.jpg',
-		size: 6
 	}
 	];
 
