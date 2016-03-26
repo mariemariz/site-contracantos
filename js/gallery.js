@@ -10,13 +10,22 @@
 		name: 'Paço do Frevo',
 		tag: 'paco-frevo',
 		ext: '.jpg',
-		size: 59
+		size: 59,
+		firstPattern: true
+	},
+	{
+		name: 'O Pescador e sua Alma',
+		tag: 'pescador',
+		ext: '.jpg',
+		size: 56,
+		firstPattern: false
 	},
 	{
 		name: 'História',
 		tag: 'historia',
 		ext: '.png',
-		size: 58
+		size: 58,
+		firstPattern: true
 	}
 	];
 
@@ -27,12 +36,20 @@
 	for(var i = 0;i < tags.length;i++){
 		$(filter).clone().appendTo('#portfolio-filter').find('a').attr('href','#filter-'+tags[i].tag).find('span').html(tags[i].name);
 		for(var j = 1; j <= tags[i].size;j++){
+
+			var name = "foto";
+			if(tags[i].firstPattern){
+				name += j + tags[i].ext;
+			}else{
+				name += " (" + j + ")" + tags[i].ext;
+			}
+
 			$(foto).clone().appendTo('#portfolio-list').attr('class','filter-'+tags[i].tag)
 				.find('a')
-					.attr('href','img/gallery/'+tags[i].tag+'/foto'+j+tags[i].ext)
+					.attr('href','img/gallery/'+tags[i].tag+'/'+name)
 					.attr('title',tags[i].name)
 				.find('img')
-					.attr('src','img/gallery/'+tags[i].tag+'/small/foto'+j+tags[i].ext)
+					.attr('src','img/gallery/'+tags[i].tag+'/small/'+name)
 					.attr('alt',tags[i].name)
 					.attr('title',tags[i].name);
 		}
