@@ -260,7 +260,9 @@ img.shadow-img{
 	line-height: 1em;
 	color: #515153;
 	background: url(../img/sprites.png) 0px -205px  no-repeat;
-
+	font-family: din-condensed;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .link-button span{
@@ -275,6 +277,10 @@ img.shadow-img{
 
 .link-button:hover{
 	color: #999;
+}
+
+.link-button.current{
+	color: #d24c0a;
 }
 
 /* STYLED ------------------------------------------------------------*/
@@ -1121,7 +1127,7 @@ div.toggle-container .block p{
 	display: block;
 	position: relative;
 	width: 220px;
-	height: 208px;
+	height: 160px;
 	float: left;
 	margin: 10px 10px;
 }

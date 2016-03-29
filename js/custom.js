@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 	// cufon
-	Cufon.replace('.custom, .link-button, #nav>li>a, #social-bar, h1, h2, h3, h4, h5, h6, .bullet-title .big, .bullet-title .small, .title, .subtitle, .portfolio-sidebar ul li a, .post-title, #sidebar ul li a, .staff .information .header .name', {
+	Cufon.replace('.custom, #nav>li>a, #social-bar, h1, h2, h3, h4, h5, h6, .bullet-title .big, .bullet-title .small, .title, .subtitle, .portfolio-sidebar ul li a, .post-title, #sidebar ul li a, .staff .information .header .name', {
 				fontFamily: 'bebas-neue',
 				hover: true
 	});

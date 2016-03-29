@@ -11,21 +11,24 @@
 		tag: 'paco-frevo',
 		ext: '.jpg',
 		size: 59,
-		firstPattern: true
+		firstPattern: true,
+		legenda: 'Fotos por Renata Victor'
 	},
 	{
 		name: 'O Pescador e sua Alma',
 		tag: 'pescador',
 		ext: '.jpg',
 		size: 56,
-		firstPattern: false
+		firstPattern: false,
+		legenda: ''
 	},
 	{
 		name: 'História',
 		tag: 'historia',
 		ext: '.png',
 		size: 58,
-		firstPattern: true
+		firstPattern: true,
+		legenda: ''
 	}
 	];
 
@@ -44,14 +47,20 @@
 				name += " (" + j + ")" + tags[i].ext;
 			}
 
+			var legenda = '';
+			if(tags[i].legenda && tags[i].legenda != ''){
+				legenda = " (" + tags[i].legenda + ")";
+			}
+
 			$(foto).clone().appendTo('#portfolio-list').attr('class','filter-'+tags[i].tag)
 				.find('a')
 					.attr('href','img/gallery/'+tags[i].tag+'/'+name)
 					.attr('title',tags[i].name)
 				.find('img')
 					.attr('src','img/gallery/'+tags[i].tag+'/small/'+name)
-					.attr('alt',tags[i].name)
-					.attr('title',tags[i].name);
+					.attr('alt',tags[i].name + legenda)
+					.attr('title',tags[i].name + legenda)
+				/*.parent().parent().find('em').html(tags[i].legenda)*/;
 		}
 	}
 	$(foto).remove();
@@ -113,7 +122,7 @@
 					.attr('href','javascript:goToPage('+i+');')
 					.html(i);
 		}
-
+		
 		setTimeout(function(){goToPage(1);},500);
 	}
 
