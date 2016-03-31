@@ -1721,7 +1721,45 @@ ul#sidebar li.recent-posts div.recent-excerpt a{
 	line-height: 1.5em;
 }
 
+#footer ul.footer-cols li.large-col{
+	display: block;
+	width: 100%;
+}
 
+#footer #wrapper-apoio {
+	font-family: din-condensed;
+	font-size: 22px;
+	color: white;
+	float: right;
+	padding-right: 30px;
+}
+
+#footer #apoio {
+	float: left;
+	margin-top:30px;
+	margin-left: 30px;
+}
+
+#footer #logoUfpe {
+	float: left;
+	padding-left: 30px;
+}
+
+#footer #logoDmus {
+	float: left;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+
+#footer #logoUfpe img {
+	height: 70px;
+	width: auto;
+}
+
+#footer #logoDmus img {
+	height: 60px;
+	width: auto;
+}
 
 /* BOTTOM ------------------------------------------------------------*/
 
