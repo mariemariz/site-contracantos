@@ -10,7 +10,7 @@
 		name: 'Paço do Frevo',
 		tag: 'paco-frevo',
 		ext: '.jpg',
-		size: 59,
+		size: 43,
 		firstPattern: true,
 		legenda: 'Fotos por Renata Victor'
 	},
@@ -122,7 +122,7 @@
 					.attr('href','javascript:goToPage('+i+');')
 					.html(i);
 		}
-		
+
 		setTimeout(function(){goToPage(1);},500);
 	}
 
