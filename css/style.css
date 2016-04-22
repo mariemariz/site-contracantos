@@ -922,7 +922,7 @@ div.toggle-container .block p{
 /* PORTFOLIO SIDEBAR ------------------------------------------------------------*/
 
 .portfolio-sidebar{
-	width: 220px;
+	width: 190px;
 	float: left;
 	margin-left: 10px;
 }
@@ -964,8 +964,56 @@ div.toggle-container .block p{
 }
 
 .portfolio-content .name{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: din-condensed;
 	font-size: 24px;
-	color: #49494b;
+	padding-left: 20px;
+	background: url(../img/sprites.png) no-repeat 0px -884px;
+	color: #d24c0a;
+	margin-bottom: 7px;
+}
+
+.portfolio-content .dashed {
+	margin-top: 15px;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	font-family: din-condensed;
+	font-size: 20px;
+}
+
+.portfolio-content .music-title {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-family: din-condensed;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #000;
+}
+.portfolio-content .music-info {
+	margin-left: 10px;
+}
+.portfolio-content .music-quote {
+	margin-left: 25px;
+	font-style: italic;
+	color: #999999;
+	font-size: 12px;
+}
+.portfolio-content .music-list {
+	margin-left: 20px;
+}
+.link-topo{
+	float: right;
+	text-decoration: none;
+	color: #d24c0a;
+}
+.link-topo div{
+	float: left;
+	height: 15px;
+	width: 10px;
+	margin-right: 5px;
+	background: url(../img/sprites.png) no-repeat center -65px;
 }
 
 .portfolio-content .sub-name{
@@ -1039,7 +1087,7 @@ div.toggle-container .block p{
 /* SINGLE PORTFOLIO CONTENT-------------------------------------------------------*/
 
 .portfolio-content{
-	width: 560px;
+	width: 760px;
 	float: left;
 	margin-bottom: 20px;
 }
