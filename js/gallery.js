@@ -7,6 +7,14 @@
 	//Adicionar objetos nessa lista com o nome (name), nome da pasta (tag) e a quantidade de fotos que vai varrer
 	var tags = [
 	{
+		name: 'Povo Brasileiro: Cantos do Nordeste em Grenoble',
+		tag: 'povo-brasileiro-grenoble',
+		ext: '.jpg',
+		size: 129,
+		firstPattern: false,
+		legenda: 'Grenoble'
+	},
+	{
 		name: 'Paço do Frevo',
 		tag: 'paco-frevo',
 		ext: '.jpg',
