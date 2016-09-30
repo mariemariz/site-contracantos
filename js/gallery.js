@@ -10,7 +10,15 @@
 		name: 'Povo Brasileiro: Cantos do Nordeste em Grenoble',
 		tag: 'povo-brasileiro-grenoble',
 		ext: '.jpg',
-		size: 129,
+		size: 99,
+		firstPattern: false,
+		legenda: 'Grenoble'
+	},
+	{
+		name: 'Concerto em Grenoble 2016',
+		tag: 'concerto-grenoble',
+		ext: '.jpg',
+		size: 30,
 		firstPattern: false,
 		legenda: 'Grenoble'
 	},
