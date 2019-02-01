@@ -961,6 +961,7 @@ div.toggle-container .block p{
 .portfolio-content{
 	width: 720px;
 	float: left;
+	text-align: justify;
 }
 
 .portfolio-content .name{
@@ -1054,6 +1055,23 @@ div.toggle-container .block p{
 	-webkit-box-shadow: 0 0 3px #000;
 	-moz-box-shadow: 0 0 3px #000;
 	box-shadow: 0 0 3px #000;
+}
+
+.portfolio-text-citacao {
+	text-align: center;
+	font-style: italic;
+}
+
+.img-peq{
+	width: 190px;
+}
+
+.galeria-portfolio {
+	width: 200px !important;
+}
+.galeria-portfolio-vertical {
+	width: 200px !important;
+	height: 220px !important;
 }
 
 /* SINGLE PORTFOLIO MINI GALLERY-------------------------------------------------------*/
