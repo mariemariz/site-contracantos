@@ -7,6 +7,14 @@
 	//Adicionar objetos nessa lista com o nome (name), nome da pasta (tag) e a quantidade de fotos que vai varrer
 	var tags = [
 	{
+		name: 'Povo Brasileiro: Cantos do Nordeste FIMUS',
+		tag: 'povo-brasileiro-fimus',
+		ext: '.jpg',
+		size: 62,
+		firstPattern: false,
+		legenda: 'FIMUS 2017'
+	},
+	{
 		name: 'Povo Brasileiro: Cantos do Nordeste em Grenoble',
 		tag: 'povo-brasileiro-grenoble',
 		ext: '.jpg',
